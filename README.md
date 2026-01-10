@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# PersonalPortfolio
+This repository hosts a high-performance, accessible personal portfolio designed to showcase professional engineering projects and technical proficiency. Built with React , the site leverages the latest frontend advancements to deliver an near-instantaneous user experience with a focus on core web vitals.
+>>>>>>> a29113204800076866f5402eadcc3ed1aed0fb71
