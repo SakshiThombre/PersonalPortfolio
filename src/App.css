@@ -2,13 +2,14 @@
   color: white;
   padding: 100px;
 }
+
 .navbarContainer {
   position: sticky;
   top: 0px;
   padding: 0px !important;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  z-index: 15;
 }
-
 .Navbar {
   text-align: center;
   padding-top: 20px;
@@ -16,8 +17,16 @@
 
 .Navbar a {
   text-decoration: none;
-  padding: 20px;
+  padding: 10px;
+  margin-left: 10px;
   color: white;
+  transition: all 0.4s ease;
+}
+.Navbar a:hover{
+    font-size:20px;
+    padding: 5px;
+    box-shadow: 2px 2px 7px #fff;
+    border-radius: 5px;
 }
 
 .headerName {
@@ -29,8 +38,6 @@
   /* box-shadow: 5px 5px 6px #9b9696; */
   padding: 10px;
   border-radius: 5px;
-  transition: transform 0.3s ease;
-
 }
 
 .Home a {
@@ -52,22 +59,45 @@
 .homePhoto {
   padding-left: 100px !important;
 }
-
-.homePhoto img {
-  width: 450px;
-  height: 450px;
+.homePhoto video{
+  width: 350px;
+  height: 350px;
 }
+.video1{
+  position: relative;
+  margin-top: -100px;
+  margin-left: 200px;
+  z-index: 0;
+} 
+.video1:hover{
+  z-index: 20;
+}
+.video2:hover{
+  z-index: 20;
+}
+
+.video2{
+     position: relative;
+   margin-top: -250px;
+   /* margin-left: 0px; */
+}
+.video3{
+     position: relative;
+  margin-top: -200px;
+  margin-left: 200px;
+}
+
+
+
 
 #head2 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-shadow: 1px 1px 1px #fff;
-  color: paleturquoise;
+  color:white;
 }
 
 #heade3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-shadow: 1px 1px 2px #fff;
-  color: paleturquoise;
+  color:  white;
 
 }
 
@@ -85,6 +115,8 @@
 .Homephoto img {
   width: 300px;
   height: 350px;
+  margin-bottom: -20px;
+  z-index: 2;
   /* border-radius: 5px;
   box-shadow: 2px 2px 7px #fff; */
 }
@@ -97,7 +129,8 @@
   transition: all 0.4s ease;
 }
 
-#resumeButton:hover {
+#resumeButton:hover,
+.contact-form button:hover {
   padding: 10px;
   background-color: blue;
 }
@@ -105,4 +138,76 @@
 .about a {
   text-decoration: none;
   color: white;
+}
+
+.Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  border: 1px solid #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #fff;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.5px solid #fff;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: rgb(109, 109, 243);
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  bottom: 0px;
+  position: sticky;
+  background-color: #8000FF;
+  padding: 0px !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  z-index: 10;
+}
+
+.color-circle {
+  width: 350px;
+  height: 50px;
+  border-radius: 50%; 
+  border: 7px solid;
+  animation: changeColors 5s infinite linear; 
+  box-shadow: 1px 1px 5px #ffffff;
+}
+
+/* Defines the color-changing animation */
+@keyframes changeColors {
+  0% {
+     border-color: #e0e1d7; /* Red-orange */
+  }
+  25% {
+    border-color:  #5a8138; /* Pink */
+  }
+  50% {
+    border-color: #23a6d5; /* Blue */
+  }
+  75% {
+    border-color: #78caed; /* Green */
+  }
+  100% {
+    border-color: #70bd3d; /* Back to start */
+  }
 }

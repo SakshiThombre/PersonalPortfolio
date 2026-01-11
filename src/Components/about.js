@@ -3,18 +3,19 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import passportphoto from '../passportphoto.png';
+import passportphoto from '../images/passportphoto.png';
 
 import '../App.css';
 
+
 function About() {
   return (
-    <Container className='container' id='about'>
+    <Container className='container about' id='about'>
       <Row>
         <Col className='about'>
           <h1 id='head3'>About</h1>
           <br />
-          <p id='head4'>Hello , my name sakshi Thombre . I'm a full stack developer with the technical Experties which are given below . As a graduate student, I combine academic rigor with hands-on development. I don't just write code; I solve problems. Whether it's optimizing a database query to reduce load times or refactoring a React component for better reusability, I focus on efficiency and performance.<br /><br />
+          <p id='head4'>Hello , my name sakshi Thombre . I'm a full stack developer with the technical Experties which are given below . I did my graducation in Bachelor's of omputer Application. As a graduate student, I combine academic rigor with hands-on development. I don't just write code; I solve problems. Whether it's optimizing a database query to reduce load times or refactoring a React component for better reusability, I focus on efficiency and performance.<br /><br />
             <a href='./MS.SakshiThombre.pdf' id='resumeButton'><b>View Resume</b></a>
           </p>
           <br />
@@ -34,14 +35,20 @@ function About() {
             <FaLinkedin color="#e4eaecff" />&nbsp;<a href='http://www.linkedin.com/in/sakshi-thombre '>linkedin</a>
           </p>
         </Col>
-        <Col className="Homephoto">
-
+        <Col>
+         <Col className="Homephoto">
           <img src={passportphoto} className="img-responsive" alt="Image" />
-
         </Col>
+        <Col className='Homephoto'>
+          <div class="color-circle"></div>
+        </Col>
+        </Col>
+       
+
       </Row>
     </Container>
   );
 }
+
 
 export default About;

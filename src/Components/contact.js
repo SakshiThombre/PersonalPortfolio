@@ -9,7 +9,7 @@ import { MdEmail } from 'react-icons/md';
 
 function FormContact() {
     return (
-        <Container className='container' id='contact'>
+        <Container className='container contact' id='contact'>
             <Row>
                 <h3>Contact</h3>
             </Row>
@@ -29,33 +29,27 @@ function FormContact() {
                     </p>
                 </Col>
 
-                <Col>
+                <Col className='Contact'>
                     <form className="contact-form" >
-                        <div className="input-group">
                             <input
                                 type="text"
                                 name="name"
                                 placeholder="Your Name"
                                 required
-                            />
-                        </div>
-                        <div className="input-group">
+                            /> <br />
                             <input
                                 type="email"
                                 name="email"
                                 placeholder="Your Email"
                                 required
-                            />
-                        </div>
-                        <div className="input-group">
+                            /> <br />
                             <textarea
                                 name="message"
                                 placeholder="Your Message"
                                 rows="5"
                                 required
-                            ></textarea>
-                        </div>
-                        <button type="submit" className="submit-btn">
+                            ></textarea> <br />
+                        <button type="submit">
                             Send Message 
                         </button>
                     </form>

@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import background1 from './background1.jpg';
+import background1 from './images/background1.jpg';
 import './App.css';
 import MyNavbar from './Components/header';
 import About from './Components/about';
 import Project from './Components/projects';
 import FormContact  from './Components/contact';
 import Home from'./Components/home';
+import Footer from './Components/footer';
 // bootstrap css in react
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -25,6 +25,7 @@ function App() {
       <About />
       <Project />
       <FormContact />
+      <Footer />
     </div>
   );
 }
