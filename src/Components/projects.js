@@ -9,11 +9,11 @@ import resumeGenerator from "../videos/resumeGenerator.mp4";
 
 function Project() {
     return (
-        <Container id='projects' className='projects'>
-            <Row>
-                <h1 id='head3'>Projects</h1>
+        <Container id='projects' className='projects ForMargin'>
+            <Row className='col-12 col-sm-12 col-md-12 projectRow'>
+                {/* <h1 id='head3'>Projects</h1> */}
                 <br />
-                <Col>
+                <Col className='col-12  col-sm-3 col-md-3 projCol'>
                     <div className="card h-100 shadow-sm border-0">
                         <div className="card-body">
                             <h5 className="card-title text-primary font-weight-bold">CODE-QUEST</h5>
@@ -38,12 +38,12 @@ function Project() {
                                 <span className="badge bg-secondary">PHP</span>&nbsp;
                                 <span className="badge bg-secondary">MySQL</span>
                             </div>
-                           <a href="http://www.linkedin.com/in/sakshi-thombre" className="btn btn-outline-primary btn-sm rounded-pill" target="_blank">Linkedin</a>&nbsp;
+                           <a href="https://www.linkedin.com/in/sakshi-thombre-068191326/" className="btn btn-outline-primary btn-sm rounded-pill" target="_blank">Linkedin</a>&nbsp;
                             <a href="https://github.com/SakshiThombre/CODE-QUEST " className="btn btn-dark btn-sm rounded-pill" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </Col>
-                <Col>
+                <Col className='col-12 col-sm-3 col-md-3 projCol'>
                     <div className="card h-100 shadow-sm border-0">
                         <div className="card-body">
                             <h5 className="card-title text-primary font-weight-bold">RESUME GENERATOR</h5>
@@ -70,12 +70,12 @@ function Project() {
                                 <span className="badge bg-secondary">PHP</span>&nbsp;
                                 <span className="badge bg-secondary">MySQL</span>
                             </div>
-                            <a href="http://www.linkedin.com/in/sakshi-thombre" className="btn btn-outline-primary btn-sm rounded-pill" target="_blank">Linkedin</a> &nbsp;
+                            <a href="https://www.linkedin.com/in/sakshi-thombre-068191326/" className="btn btn-outline-primary btn-sm rounded-pill" target="_blank">Linkedin</a> &nbsp;
                             <a href="https://github.com/SakshiThombre/RESUME_GENERATOR " className="btn btn-dark btn-sm rounded-pill" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </Col>
-                <Col>
+                <Col className='col-12 col-sm-3 col-md-3 projCol'>
                     <div className="card h-100 shadow-sm border-0">
                         <div className="card-body">
                             <h5 className="card-title text-primary font-weight-bold">AIRBNB</h5>
@@ -92,6 +92,7 @@ function Project() {
                                 <source src={video4} type="video/mp4" className='video' />
                             </video>
                             <div className="mb-3">
+                                <span className="badge bg-secondary">Html</span>&nbsp;
                                 <span className="badge bg-secondary">Node.js</span>&nbsp;
                                 <span className="badge bg-secondary">CSS</span>&nbsp;
                                 <span className="badge bg-secondary">JavaScript</span>&nbsp;
@@ -99,7 +100,7 @@ function Project() {
                                 <span className="badge bg-secondary">Express</span>&nbsp;
                                 <span className="badge bg-secondary">Bootstrap</span>&nbsp;
                             </div>
-                           <a href="http://www.linkedin.com/in/sakshi-thombre" className="btn btn-outline-primary btn-sm rounded-pill" target="_blank">Linkedin</a> &nbsp;
+                           <a href="https://www.linkedin.com/in/sakshi-thombre-068191326/" className="btn btn-outline-primary btn-sm rounded-pill" target="_blank">Linkedin</a> &nbsp;
                             <a href="https://github.com/SakshiThombre/Aribnb " className="btn btn-dark btn-sm rounded-pill" target="_blank">GitHub</a>
                         </div>
                     </div>

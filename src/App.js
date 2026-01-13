@@ -1,5 +1,6 @@
 import background1 from './images/background1.jpg';
 import './App.css';
+import React, { useState } from 'react';
 import MyNavbar from './Components/header';
 import About from './Components/about';
 import Project from './Components/projects';
@@ -10,22 +11,32 @@ import Footer from './Components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
   const sectionStyle = {
-    backgroundImage: `url(${background1})`,
+     backgroundImage: `url(${background1})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    minHeight: '100vh',
-    backgroundAttachment: 'fixed' // Optional: keeps bg still while scrolling
-  };
+    backgroundRepeat: 'no-repeat',
+    width: '100%',
+    minHeight: '100vh', // Ensures it covers the full viewport height
+    /* 
+       Note: 'fixed' is often disabled on mobile devices 
+       because it causes performance lag and zoom issues.
+    */
+    backgroundAttachment: window.innerWidth > 768 ? 'fixed' : 'scroll' 
+};
 
 function App() {
+  const [activeSection, setActiveSection] = useState('home');
   return (
     <div style={sectionStyle }>
-      <MyNavbar /> 
-      <Home />
-      <About />
-      <Project />
-      <FormContact />
-      <Footer />
+      <MyNavbar setSection={setActiveSection}  /> 
+      <main className='content-area'>
+      {activeSection === 'home' && <Home />}
+        {activeSection === 'about' && <About />}
+        {activeSection === 'projects' && <Project />}
+        {activeSection === 'contact' && <FormContact />}
+             <Footer /> 
+
+        </main>
     </div>
   );
 }

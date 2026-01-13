@@ -4,30 +4,33 @@
 }
 
 .navbarContainer {
-  position: sticky;
-  top: 0px;
-  padding: 0px !important;
+  position: sticky !important;
+  top: 0px !important;
+  padding: 5px !important;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   z-index: 15;
 }
-.Navbar {
-  text-align: center;
-  padding-top: 20px;
-}
 
-.Navbar a {
+
+/* Target the links inside your navbar container */
+.navbarContainer .nav-link {
   text-decoration: none;
   padding: 10px;
   margin-left: 10px;
-  color: white;
+  color: white !important; /* Ensure Bootstrap doesn't override color */
   transition: all 0.4s ease;
+  display: inline-block; /* Required for box-shadow and padding to look right */
 }
-.Navbar a:hover{
-    font-size:20px;
-    padding: 5px;
-    box-shadow: 2px 2px 7px #fff;
-    border-radius: 5px;
+
+/* Hover Effect */
+.navbarContainer .nav-link:hover {
+  font-size: 20px;
+  padding: 5px 10px; /* Adjusted to keep it balanced */
+  box-shadow: 2px 2px 7px #fff;
+  border-radius: 5px;
+  color: white !important;
 }
+
 
 .headerName {
   text-align: left;
@@ -57,7 +60,7 @@
 }
 
 .homePhoto {
-  padding-left: 100px !important;
+  padding-left: 50px !important;
 }
 .homePhoto video{
   width: 350px;
@@ -87,9 +90,6 @@
   margin-left: 200px;
 }
 
-
-
-
 #head2 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color:white;
@@ -102,23 +102,20 @@
 }
 
 #head4 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: justify;
 }
 
-.Homephoto {
+.aboutphoto {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.Homephoto img {
+.aboutphoto img {
   width: 300px;
   height: 350px;
   margin-bottom: -20px;
   z-index: 2;
-  /* border-radius: 5px;
-  box-shadow: 2px 2px 7px #fff; */
 }
 
 #resumeButton {
@@ -138,6 +135,14 @@
 .about a {
   text-decoration: none;
   color: white;
+}
+.aboutphoto img:hover{
+  transform:rotateY(180deg);
+}
+.projectRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Contact {
@@ -159,6 +164,7 @@
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 5px;
+  padding: 5px;
   background-color: transparent;
   border: none;
   border-bottom: 0.5px solid #fff;
@@ -177,10 +183,9 @@
   color: white;
   text-align: center;
   bottom: 0px;
+  margin: 0px !important;
   position: sticky;
   background-color: #8000FF;
-  padding: 0px !important;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   z-index: 10;
 }
 
@@ -210,4 +215,54 @@
   100% {
     border-color: #70bd3d; /* Back to start */
   }
+}
+
+
+
+
+@media (max-width: 991px) {
+  .navbarContainer{
+    background-color: #8000FF;
+  }
+  .navbarContainer .nav-link {
+    margin-left: 0;
+  }
+
+  #head1{
+    font-size: 10px;
+  }
+  
+  #span1{
+    display: none;
+  }
+   .ForMargin{
+    padding-top: 40px !important;
+   }
+  .homePhoto{
+    display: none;
+  }
+ 
+  #head4 {
+  font-size: 13px;
+}
+  .aboutphoto img {
+  width: 150px;
+  height: 150px;  
+}
+
+.projCol{
+  margin: 10px;
+}
+.projectRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-form {
+  padding: 15px;
+}
+
+.footer{
+  margin: 0px !important;
+}
 }
