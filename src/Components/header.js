@@ -1,4 +1,3 @@
-import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import '../App.css'; 

@@ -34,7 +34,7 @@ function App() {
         {activeSection === 'about' && <About />}
         {activeSection === 'projects' && <Project />}
         {activeSection === 'contact' && <FormContact />}
-             <Footer /> 
+        <Footer /> 
 
         </main>
     </div>
