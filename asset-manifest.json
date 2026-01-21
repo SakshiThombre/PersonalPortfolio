@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3129031f.css",
+    "main.js": "/static/js/main.8502429a.js",
+    "static/js/453.3a92521d.chunk.js": "/static/js/453.3a92521d.chunk.js",
+    "static/media/video4.mp4": "/static/media/video4.b6f401b44612a7d74ec5.mp4",
+    "static/media/video3.mp4": "/static/media/video3.881da4965f791f937ffc.mp4",
+    "static/media/codequet1.mp4": "/static/media/codequet1.cad721a0f2d04b9d91a4.mp4",
+    "static/media/background1.jpg": "/static/media/background1.525be0d41d297bccab96.jpg",
+    "static/media/StudioShodwe.mp4": "/static/media/StudioShodwe.719413c37a1c0dbf0494.mp4",
+    "static/media/resumeGenerator.mp4": "/static/media/resumeGenerator.8197bef8d911e722b449.mp4",
+    "static/media/passportphoto.png": "/static/media/passportphoto.658822409f293e61e815.png",
+    "index.html": "/index.html",
+    "main.3129031f.css.map": "/static/css/main.3129031f.css.map",
+    "main.8502429a.js.map": "/static/js/main.8502429a.js.map",
+    "453.3a92521d.chunk.js.map": "/static/js/453.3a92521d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3129031f.css",
+    "static/js/main.8502429a.js"
+  ]
+}
