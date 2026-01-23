@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/personalPortfolio/static/css/main.3129031f.css",
-    "main.js": "/personalPortfolio/static/js/main.da5eaa7e.js",
-    "static/js/453.3a92521d.chunk.js": "/personalPortfolio/static/js/453.3a92521d.chunk.js",
-    "static/media/video4.mp4": "/personalPortfolio/static/media/video4.b6f401b44612a7d74ec5.mp4",
-    "static/media/video3.mp4": "/personalPortfolio/static/media/video3.881da4965f791f937ffc.mp4",
-    "static/media/codequet1.mp4": "/personalPortfolio/static/media/codequet1.cad721a0f2d04b9d91a4.mp4",
-    "static/media/background1.jpg": "/personalPortfolio/static/media/background1.525be0d41d297bccab96.jpg",
-    "static/media/StudioShodwe.mp4": "/personalPortfolio/static/media/StudioShodwe.719413c37a1c0dbf0494.mp4",
-    "static/media/resumeGenerator.mp4": "/personalPortfolio/static/media/resumeGenerator.8197bef8d911e722b449.mp4",
-    "static/media/passportphoto.png": "/personalPortfolio/static/media/passportphoto.658822409f293e61e815.png",
-    "index.html": "/personalPortfolio/index.html",
-    "main.3129031f.css.map": "/personalPortfolio/static/css/main.3129031f.css.map",
-    "main.da5eaa7e.js.map": "/personalPortfolio/static/js/main.da5eaa7e.js.map",
-    "453.3a92521d.chunk.js.map": "/personalPortfolio/static/js/453.3a92521d.chunk.js.map"
+    "main.css": "/SakshiThombre/PersonalPortfolio/static/css/main.3129031f.css",
+    "main.js": "/SakshiThombre/PersonalPortfolio/static/js/main.dd3e9a9c.js",
+    "static/js/453.3a92521d.chunk.js": "/SakshiThombre/PersonalPortfolio/static/js/453.3a92521d.chunk.js",
+    "static/media/video4.mp4": "/SakshiThombre/PersonalPortfolio/static/media/video4.b6f401b44612a7d74ec5.mp4",
+    "static/media/video3.mp4": "/SakshiThombre/PersonalPortfolio/static/media/video3.881da4965f791f937ffc.mp4",
+    "static/media/codequet1.mp4": "/SakshiThombre/PersonalPortfolio/static/media/codequet1.cad721a0f2d04b9d91a4.mp4",
+    "static/media/background1.jpg": "/SakshiThombre/PersonalPortfolio/static/media/background1.525be0d41d297bccab96.jpg",
+    "static/media/StudioShodwe.mp4": "/SakshiThombre/PersonalPortfolio/static/media/StudioShodwe.719413c37a1c0dbf0494.mp4",
+    "static/media/resumeGenerator.mp4": "/SakshiThombre/PersonalPortfolio/static/media/resumeGenerator.8197bef8d911e722b449.mp4",
+    "static/media/passportphoto.png": "/SakshiThombre/PersonalPortfolio/static/media/passportphoto.658822409f293e61e815.png",
+    "index.html": "/SakshiThombre/PersonalPortfolio/index.html",
+    "main.3129031f.css.map": "/SakshiThombre/PersonalPortfolio/static/css/main.3129031f.css.map",
+    "main.dd3e9a9c.js.map": "/SakshiThombre/PersonalPortfolio/static/js/main.dd3e9a9c.js.map",
+    "453.3a92521d.chunk.js.map": "/SakshiThombre/PersonalPortfolio/static/js/453.3a92521d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3129031f.css",
-    "static/js/main.da5eaa7e.js"
+    "static/js/main.dd3e9a9c.js"
   ]
 }
