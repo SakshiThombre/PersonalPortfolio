@@ -2,8 +2,7 @@
   "name": "myportfolio",
   "version": "0.1.0",
   "private": true,
-  // --- CORRECTED HOMEPAGE URL ---
-  "homepage": "https://sakshithombre.github.io",
+  "homepage": "https://sakshiThombre.github.io",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.1",
