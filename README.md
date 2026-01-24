@@ -1,5 +1,6 @@
 <h1>Personal Portfolio</h1>
-<a href="https://sakshithombre.github.io/PersonalPortfolio/">https://sakshithombre.github.io/PersonalPortfolio/</a>
+<b>Link:</b>
+https://sakshithombre.github.io/PersonalPortfolio/
 <p>A high-performance, accessible personal portfolio designed to showcase professional engineering projects and technical proficiency. Built with **React**, this site leverages modern frontend advancements to deliver a near-instantaneous user experience with a strict focus on Core Web Vitals.
 </p>
 <br>
