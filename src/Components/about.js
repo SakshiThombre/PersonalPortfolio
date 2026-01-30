@@ -16,7 +16,7 @@ function About() {
           <h1 id='head3'>About</h1>
           <br />
           <p id='head4'>Hello , my name sakshi Thombre . I'm a full stack developer with the technical Experties which are given below . I did my graducation in Bachelor's of Computer Application. As a graduate student, I combine academic rigor with hands-on development. I don't just write code; I solve problems. Whether it's optimizing a database query to reduce load times or refactoring a React component for better reusability, I focus on efficiency and performance.<br /><br />
-            <a href='./Ms.SakshiThombre.pdf' id='resumeButton'><b>View Resume</b></a>
+            <a href='../Ms.SakshiThombre.pdf' id='resumeButton'><b>View Resume</b></a>
           </p>
           <br />
           <h4 id='head3'>Technical Expertise</h4>
