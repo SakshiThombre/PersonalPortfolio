@@ -22,7 +22,7 @@ function Home({ setSection }) {
                     <a href="#home" onClick={(e) => { e.preventDefault(); setSection('home'); }}>
                         <FaUserCircle />
                     </a>
-                    <a href="#projects" onClick={(e) => { e.preventDefault(); setSection('project'); }}>
+                    <a href="#projects" onClick={(e) => { e.preventDefault(); setSection('projects'); }}>
                         <FaCode />
                     </a>
                     <a href="#contact" onClick={(e) => { e.preventDefault(); setSection('contact'); }}>

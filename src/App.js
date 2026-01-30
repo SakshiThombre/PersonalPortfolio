@@ -30,7 +30,7 @@ function App() {
     <div style={sectionStyle }>
       <MyNavbar setSection={setActiveSection}  /> 
       <main className='content-area'>
-      {activeSection === 'home' && <Home />}
+      {activeSection === 'home' && <Home   setSection={setActiveSection} />}
         {activeSection === 'about' && <About />}
         {activeSection === 'projects' && <Project />}
         {activeSection === 'contact' && <FormContact />}
