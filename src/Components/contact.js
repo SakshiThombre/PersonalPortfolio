@@ -27,6 +27,7 @@ function FormContact() {
         })
         .catch((error) => {
             console.error('FAILED...', error);
+            alert(process.env.REACT_APP_TEMPLATE_ID );
             alert('Failed to send message. Please try again.');
         })
         .finally(() => {
