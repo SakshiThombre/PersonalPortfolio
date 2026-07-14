@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.67b95d49.css",
-    "main.js": "/PersonalPortfolio/static/js/main.47591df0.js",
+    "main.css": "/PersonalPortfolio/static/css/main.f6faf1ca.css",
+    "main.js": "/PersonalPortfolio/static/js/main.344f49b9.js",
     "static/js/453.3a92521d.chunk.js": "/PersonalPortfolio/static/js/453.3a92521d.chunk.js",
     "static/media/video4.mp4": "/PersonalPortfolio/static/media/video4.b6f401b44612a7d74ec5.mp4",
     "static/media/video3.mp4": "/PersonalPortfolio/static/media/video3.881da4965f791f937ffc.mp4",
     "static/media/codequet1.mp4": "/PersonalPortfolio/static/media/codequet1.cad721a0f2d04b9d91a4.mp4",
     "static/media/background1.jpg": "/PersonalPortfolio/static/media/background1.525be0d41d297bccab96.jpg",
     "static/media/StudioShodwe.mp4": "/PersonalPortfolio/static/media/StudioShodwe.719413c37a1c0dbf0494.mp4",
+    "static/media/girlpng.png": "/PersonalPortfolio/static/media/girlpng.3be2a4fde5e9707e9298.png",
     "static/media/resumeGenerator.mp4": "/PersonalPortfolio/static/media/resumeGenerator.8197bef8d911e722b449.mp4",
     "static/media/passportphoto.png": "/PersonalPortfolio/static/media/passportphoto.658822409f293e61e815.png",
     "index.html": "/PersonalPortfolio/index.html",
-    "main.67b95d49.css.map": "/PersonalPortfolio/static/css/main.67b95d49.css.map",
-    "main.47591df0.js.map": "/PersonalPortfolio/static/js/main.47591df0.js.map",
+    "main.f6faf1ca.css.map": "/PersonalPortfolio/static/css/main.f6faf1ca.css.map",
+    "main.344f49b9.js.map": "/PersonalPortfolio/static/js/main.344f49b9.js.map",
     "453.3a92521d.chunk.js.map": "/PersonalPortfolio/static/js/453.3a92521d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67b95d49.css",
-    "static/js/main.47591df0.js"
+    "static/css/main.f6faf1ca.css",
+    "static/js/main.344f49b9.js"
   ]
 }
