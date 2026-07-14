@@ -1,9 +1,14 @@
 import Container from 'react-bootstrap/Container';
+import girlpng from '../images/girlpng.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '../App.css';
 import { FaUserCircle, FaCode } from 'react-icons/fa';
 import { FiSend } from 'react-icons/fi';
+import { MdWavingHand } from "react-icons/md";
+
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+
 // import homepage from '../homepage.png';
 import video1 from '../videos/StudioShodwe.mp4';
 import video3 from "../videos/video3.mp4";
@@ -12,59 +17,49 @@ import video4 from "../videos/video4.mp4";
 
 function Home({ setSection }) {
     return (
-        <Container className='container ForMargin' id='home'>
+        <Container className='ForMargin' id='home' style={{ paddingTop: "50px" }}>
             <Row className='col-12 col-sm-12 col-md-12'>
-                <Col className='Home col-12 col-sm-4 col-md-6'>
-                    <p id='head1'>HELLO THERE , WELCOME TO MY PORTFOLIO </p>
-                    <h1 id='head2'>I'm Sakshi Thombre</h1>
-                    <h2 id='heade3'>  A Full Stack Developer</h2>
-                    <p id='head4'> I am Sakshi Thombre, a Full Stack Developer dedicated to building seamless, high-performance web applications.<span id='span1'>My expertise spans the modern React and Node.js ecosystem, complemented by a solid foundation in PHP and MySQL for robust back-end architecture. With a sharp eye for responsive design using Bootstrap and CSS3, I bridge the gap between complex logic and intuitive user interfaces.</span> </p>
-                    <a href="#home" onClick={(e) => { e.preventDefault(); setSection('home'); }}>
-                        <FaUserCircle />
+                <Col className='col-1 col-sm-1 col-md-1'>
+                </Col>
+                <Col className='Home col-12 col-sm-8 col-md-8'>
+                    <p id='head1' className='head1 name'>HELLO THERE , WELCOME TO MY PORTFOLIO <MdWavingHand size={22} color="#eeee4c" /></p>
+                    <h1 id='head2' className='animation'>I'm <span class="name" id="head3">Sakshi Thombre</span></h1>
+                    <h2 id='heade3'>  A Full Stack <span className='name'>Developer</span></h2>
+                    <br />
+                    <h6 id='heade3'> React&nbsp; • Node.js&nbsp; • Express&nbsp; • MongoDB&nbsp; • MySql&nbsp; • PHP&nbsp; • Javascript&nbsp; • Html&nbsp; • CSS&nbsp; • Bootstrap</h6>
+                    <br />
+                    <p id='head4'> Passionate Full Stack Developer skilled in React, Node.js, Express.js, MongoDB, PHP, and MySQL. I create responsive, scalable, and user-friendly web applications with a focus on clean code, performance, and great user experience. </p>
+
+                    <Row className='row1'>
+                        <Col className='col-3'>
+                            <button type="button" href="#project" class="btn btn-default" onClick={(e) => { e.preventDefault(); setSection('projects'); }}>View My Work</button>
+                        </Col>
+                        <Col>
+                            <button type="button" href="#contact" class="btn btn-default" onClick={(e) => { e.preventDefault(); setSection('contact'); }}>Hire Me</button>
+                        </Col>
+                    </Row>
+                    <br />
+                    <br />
+                    <h5 className='name row1'>Let's Connect!</h5>
+                    <a href='https://github.com/SakshiThombre' target="_blank" >
+                        <FaGithub size={20} />
                     </a>
-                    <a href="#projects" onClick={(e) => { e.preventDefault(); setSection('projects'); }}>
-                        <FaCode />
+                    <a href='http://www.linkedin.com/in/sakshi-thombre' target="_blank" >
+                        <FaLinkedin size={20} />
                     </a>
                     <a href="#contact" onClick={(e) => { e.preventDefault(); setSection('contact'); }}>
-                        <FiSend />
+                        <FiSend size={20} />
                     </a>
 
-                </Col>
-                <Col className='homePhoto col-6 col-sm-6 col-md-6'>
-                    <video
-                        autoPlay
-                        muted
-                        defaultMuted
-                        loop
-                        playsInline
-                        width="100%"
-                        className='video1'>
-                        <source src={video1} type="video/mp4" className='video' />
-                    </video>
-                    <video
-                        autoPlay
-                        muted
-                        defaultMuted
-                        loop
-                        playsInline
-                        width="100%"
-                        className='video2'>
-                        <source src={video3} type="video/mp4" className='video' />
-                    </video>
-                    <video
-                        autoPlay
-                        muted
-                        defaultMuted
-                        loop
-                        playsInline
-                        width="100%"
-                        className='video3'>
-                        <source src={video4} type="video/mp4" className='video' />
-                    </video>
 
                 </Col>
+
+
             </Row>
+
         </Container>
+
+
     );
 }
 
