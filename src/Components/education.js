@@ -103,8 +103,6 @@ function Education() {
                 CGPA : 8.4
               </span>
 
-              <FaFileAlt className="side-icon" />
-
             </div>
 
           </div>
@@ -148,7 +146,6 @@ function Education() {
                 81.30%
               </span>
 
-              <FaFileAlt className="side-icon" />
 
             </div>
 

@@ -16,7 +16,7 @@ function Project() {
             <Row className='col-12 col-sm-12 col-md-12 projectRow'>
                 {/* <h1 id='head3'>Projects</h1> */}
                 <br />
-                <Col className='col-12  col-sm-3 col-md-3 projCol'>
+                <Col className='col-12  col-sm-12 col-md-3 projCol'>
                     <div className="card h-100 shadow-sm border-0">
                         <div className="card-body">
                             <h5 className="card-title font-weight-bold">CODE-QUEST</h5>
@@ -46,7 +46,7 @@ function Project() {
                         </div>
                     </div>
                 </Col>
-                <Col className='col-12 col-sm-3 col-md-3 projCol'>
+                <Col className='col-12 col-sm-12 col-md-3 projCol'>
                     <div className="card h-100 shadow-sm border-0 ">
                         <div className="card-body">
                             <h5 className="card-title font-weight-bold">RESUME GENERATOR</h5>
@@ -78,10 +78,10 @@ function Project() {
                         </div>
                     </div>
                 </Col>
-                <Col className='col-12 col-sm-3 col-md-3 projCol'>
+                <Col className='col-12 col-sm-12 col-md-3 projCol'>
                     <div className="card h-100 shadow-sm border-0">
                         <div className="card-body">
-                            <h5 className="card-title  font-weight-bold">AIRBNB</h5>
+                            <h5 className="card-title  font-weight-bold">AIRBNB Clone</h5>
                             {/* <p className="card-text text-muted small">An Airbnb Clone is a full-stack, two-sided marketplace application that replicates the core functionalities of the original platform, allowing hosts to list properties and  contact the owner and book the property.It is a good way to list your properties.  <br />
                             </p> */}
                             <video

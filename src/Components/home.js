@@ -25,30 +25,44 @@ function Home({ setSection }) {
                     <p id='head1' className='head1 name'>HELLO THERE , WELCOME TO MY PORTFOLIO <MdWavingHand size={22} color="#eeee4c" /></p>
                     <h1 id='head2' className='animation'>I'm <span class="name" id="head3">Sakshi Thombre</span></h1>
                     <h2 id='heade3'>  A Full Stack <span className='name'>Developer</span></h2>
+                    {/* <h6 id='heade3'> React&nbsp; • Node.js&nbsp; • Express&nbsp; • MongoDB&nbsp; • MySql&nbsp; • PHP&nbsp; • Javascript&nbsp; • Html&nbsp; • CSS&nbsp; • Bootstrap</h6>
+                    <br /> */}
+
+                    <div className="skills">
+                        <span className="badge">React</span>
+                        <span className="badge">Node.js</span>
+                        <span className="badge">Express</span>
+                        <span className="badge">MongoDB</span>
+                        <span className="badge">MySQL</span>
+                        <span className="badge">PHP</span>
+                        <span className="badge">JavaScript</span>
+                        <span className="badge">HTML</span>
+                        <span className="badge">CSS</span>
+                        <span className="badge">Bootstrap</span>
+                    </div>
                     <br />
-                    <h6 id='heade3'> React&nbsp; • Node.js&nbsp; • Express&nbsp; • MongoDB&nbsp; • MySql&nbsp; • PHP&nbsp; • Javascript&nbsp; • Html&nbsp; • CSS&nbsp; • Bootstrap</h6>
-                    <br />
+
                     <p id='head4'> Passionate Full Stack Developer skilled in React, Node.js, Express.js, MongoDB, PHP, and MySQL. I create responsive, scalable, and user-friendly web applications with a focus on clean code, performance, and great user experience. </p>
 
                     <Row className='row1'>
-                        <Col className='col-3'>
-                            <button type="button" href="#project" class="btn btn-default" onClick={(e) => { e.preventDefault(); setSection('projects'); }}>View My Work</button>
+                        <Col className='col-3 col-sm-8 col-md-8 row2 btn1'>
+                            <button type="button" href="#project" class="btn btn-default " onClick={(e) => { e.preventDefault(); setSection('projects'); }}>View My Work</button>
                         </Col>
-                        <Col>
+                        <Col className='col-sm-8 col-md-8 row2 btn2'>
                             <button type="button" href="#contact" class="btn btn-default" onClick={(e) => { e.preventDefault(); setSection('contact'); }}>Hire Me</button>
                         </Col>
                     </Row>
                     <br />
                     <br />
-                    <h5 className='name row1'>Let's Connect!</h5>
+                    <h5 className='name row1'>Let's Connect !</h5>
                     <a href='https://github.com/SakshiThombre' target="_blank" >
-                        <FaGithub size={20} />
+                        <FaGithub size={20} className='icon' />
                     </a>
                     <a href='http://www.linkedin.com/in/sakshi-thombre' target="_blank" >
-                        <FaLinkedin size={20} />
+                        <FaLinkedin size={20} className='icon' />
                     </a>
                     <a href="#contact" onClick={(e) => { e.preventDefault(); setSection('contact'); }}>
-                        <FiSend size={20} />
+                        <FiSend size={20} className='icon' />
                     </a>
 
 

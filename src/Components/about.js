@@ -12,7 +12,7 @@ function About() {
   return (
     <Container className=' about ForMargin' id='about' style={{paddingTop:"50px"}}>
       <Row className='col-12 col-sm-12 col-md-12'>
-        <Col className='about about-card col-12 col-sm-6 col-md-6'>
+        <Col className='about contact-card col-12 col-sm-6 col-md-6'>
           <h2 id='head3' className='animation'>About <span>Me</span></h2>
           <br />
           <p id='head4'>I'm Sakshi Thombre, a passionate Full Stack Developer specializing in React, Node.js, PHP, and MySQL. I enjoy building responsive, high-performance web applications with clean UI and efficient backend architecture.<br /><br />

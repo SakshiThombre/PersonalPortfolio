@@ -38,8 +38,8 @@ function FormContact() {
     return (
         <Container className=' contact ForMargin' id='contact' >
             <Row>
-                <Col className='about contact-card' md={6}>
-                    <h1 id='head3' className='animation'>Get In <span>Touch</span> With <span>Me</span></h1>
+                <Col className='about contact-card col-sm-6 col-md-6 ' md={6}>
+                    <h1 id='head3' className='animation'>Get In <span>Touch</span></h1>
                     <p id='head4'>I'm currently looking for new opportunities and my inbox is always open.</p>
                     <p id='head4'>
                         <MdEmail size={20} className='social-icon' /> sakshithombre51@gmail.com <br />
@@ -50,7 +50,7 @@ function FormContact() {
                     </p>
                 </Col>
 
-                <Col className='Contact ' md={6}>
+                <Col className='Contact col-6 col-sm-6 col-md-6 ' md={6}>
                     <form className="contact-form" ref={form} onSubmit={sendEmail}>
                         {/* Note: 'name' attributes must match your EmailJS template variables */}
                         <input type="text" name="user_name" placeholder="Name" required className="form-control mb-2" />

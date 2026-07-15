@@ -25,6 +25,7 @@ const sectionStyle = {
   backgroundAttachment: window.innerWidth > 768 ? 'fixed' : 'scroll'
 };
 
+
 function App() {
   const [activeSection, setActiveSection] = useState('home');
   return (
@@ -41,6 +42,8 @@ function App() {
       </main>
     </div>
   );
+
+  
 }
 
 
