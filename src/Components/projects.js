@@ -42,7 +42,7 @@ function Project() {
                                 <span className="badge bg-secondary">MySQL</span>
                             </div>
                             <a href="https://www.linkedin.com/in/sakshi-thombre-068191326/" className="btn btn-primary btn-sm rounded-pill " target="_blank">Linkedin</a>&nbsp;
-                            <a href="https://github.com/SakshiThombre/CODE-QUEST " className="btn btn-dark btn-sm rounded-pill" target="_blank">GitHub</a>
+                            <a href="https://github.com/SakshiThombre/CODE-QUEST " className="btn btn-info btn-sm rounded-pill" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </Col>
@@ -74,7 +74,7 @@ function Project() {
                                 <span className="badge bg-secondary">MySQL</span>
                             </div>
                             <a href="https://www.linkedin.com/in/sakshi-thombre-068191326/" className="btn btn-primary btn-sm rounded-pill" target="_blank">Linkedin</a> &nbsp;
-                            <a href="https://github.com/SakshiThombre/RESUME_GENERATOR " className="btn btn-dark btn-sm rounded-pill" target="_blank">GitHub</a>
+                            <a href="https://github.com/SakshiThombre/RESUME_GENERATOR " className="btn btn-info btn-sm rounded-pill" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </Col>
@@ -104,7 +104,7 @@ function Project() {
                                 <span className="badge bg-secondary">Bootstrap</span>&nbsp;
                             </div>
                             <a href="https://www.linkedin.com/in/sakshi-thombre-068191326/" className="btn btn-primary btn-sm rounded-pill" target="_blank">Linkedin</a> &nbsp;
-                            <a href="https://github.com/SakshiThombre/Aribnb " className="btn btn-dark btn-sm rounded-pill" target="_blank">GitHub</a>
+                            <a href="https://github.com/SakshiThombre/Aribnb " className="btn btn-info btn-sm rounded-pill" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </Col>

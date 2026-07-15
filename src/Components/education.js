@@ -23,7 +23,6 @@ function Education() {
         {/* Timeline */}
         <div className="timeline"></div>
 
-        {/* ================= MSc ================= */}
 
         <div className="education-item">
 
@@ -66,7 +65,6 @@ function Education() {
 
         </div>
 
-        {/* ================= BCA ================= */}
 
         <div className="education-item">
 
@@ -109,7 +107,6 @@ function Education() {
 
         </div>
 
-        {/* ================= HSC ================= */}
 
         <div className="education-item">
 

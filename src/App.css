@@ -960,6 +960,8 @@
 
 }
 
+
+
 .fade-up {
   opacity: 0;
   transform: translateY(50px);
@@ -973,6 +975,7 @@
   }
 }
 
+/* Background Image Animation */
 
 .animated-bg{
   animation: bgMove 15s ease-in-out infinite alternate;
