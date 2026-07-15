@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.f6faf1ca.css",
-    "main.js": "/PersonalPortfolio/static/js/main.344f49b9.js",
+    "main.css": "/PersonalPortfolio/static/css/main.e633c95b.css",
+    "main.js": "/PersonalPortfolio/static/js/main.5ee851e2.js",
     "static/js/453.3a92521d.chunk.js": "/PersonalPortfolio/static/js/453.3a92521d.chunk.js",
     "static/media/video4.mp4": "/PersonalPortfolio/static/media/video4.b6f401b44612a7d74ec5.mp4",
     "static/media/video3.mp4": "/PersonalPortfolio/static/media/video3.881da4965f791f937ffc.mp4",
@@ -12,12 +12,12 @@
     "static/media/resumeGenerator.mp4": "/PersonalPortfolio/static/media/resumeGenerator.8197bef8d911e722b449.mp4",
     "static/media/passportphoto.png": "/PersonalPortfolio/static/media/passportphoto.658822409f293e61e815.png",
     "index.html": "/PersonalPortfolio/index.html",
-    "main.f6faf1ca.css.map": "/PersonalPortfolio/static/css/main.f6faf1ca.css.map",
-    "main.344f49b9.js.map": "/PersonalPortfolio/static/js/main.344f49b9.js.map",
+    "main.e633c95b.css.map": "/PersonalPortfolio/static/css/main.e633c95b.css.map",
+    "main.5ee851e2.js.map": "/PersonalPortfolio/static/js/main.5ee851e2.js.map",
     "453.3a92521d.chunk.js.map": "/PersonalPortfolio/static/js/453.3a92521d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6faf1ca.css",
-    "static/js/main.344f49b9.js"
+    "static/css/main.e633c95b.css",
+    "static/js/main.5ee851e2.js"
   ]
 }
