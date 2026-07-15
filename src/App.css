@@ -307,6 +307,27 @@
   padding-top: 50px;
 }
 
+.card-body .projectGit{
+    background:#626163;
+    color:white;
+    border:none;
+}
+
+.card-body .projectLinkdin{
+    background:#5383f2;
+    color:white;
+    border:none;
+}
+.card-body .projectGit:hover{
+    background:#404041;
+    color: white;
+}
+.card-body .projectLinkdin:hover{
+    background:#1c53d2;
+    color: white;
+}
+
+
 
 
 .Contact {
