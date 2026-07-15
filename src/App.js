@@ -29,21 +29,21 @@ const sectionStyle = {
 function App() {
   const [activeSection, setActiveSection] = useState('home');
   return (
-    <div style={sectionStyle}>
+    <div >
       <MyNavbar setSection={setActiveSection} />
-      <main className='content-area'>
+      <main className='content-area animated-bg' style={sectionStyle}>
         {activeSection === 'home' && <Home setSection={setActiveSection} />}
         {activeSection === 'about' && <About />}
         {activeSection === 'education' && <Education />}
         {activeSection === 'projects' && <Project />}
         {activeSection === 'contact' && <FormContact />}
-        <Footer />
-
       </main>
+      <Footer />
+
     </div>
   );
 
-  
+
 }
 
 

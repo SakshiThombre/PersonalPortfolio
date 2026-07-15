@@ -22,9 +22,9 @@ function Home({ setSection }) {
                 <Col className='col-1 col-sm-1 col-md-1'>
                 </Col>
                 <Col className='Home col-12 col-sm-8 col-md-8'>
-                    <p id='head1' className='head1 name'>HELLO THERE , WELCOME TO MY PORTFOLIO <MdWavingHand size={22} color="#eeee4c" /></p>
-                    <h1 id='head2' className='animation'>I'm <span class="name" id="head3">Sakshi Thombre</span></h1>
-                    <h2 id='heade3'>  A Full Stack <span className='name'>Developer</span></h2>
+                    <p id='head1' className='head1 name '>HELLO THERE , WELCOME TO MY PORTFOLIO <MdWavingHand size={22} color="#eeee4c" /></p>
+                    <h1 id='head2' className='animation '>I'm <span  id="head3" className=' name'>Sakshi Thombre</span></h1>
+                    <h2 id='heade3' className='fade-up '>  A Full Stack <span className='name'>Developer</span></h2>
                     {/* <h6 id='heade3'> React&nbsp; • Node.js&nbsp; • Express&nbsp; • MongoDB&nbsp; • MySql&nbsp; • PHP&nbsp; • Javascript&nbsp; • Html&nbsp; • CSS&nbsp; • Bootstrap</h6>
                     <br /> */}
 
